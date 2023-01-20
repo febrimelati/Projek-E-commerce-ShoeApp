@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logosepatu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape1"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header_Login"
+            android:textSize="24sp"
+            android:textColor="#C1941B"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desk_header_Login"
+            android:textSize="12sp"
+            android:textColor="#C1941B"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:id="@+id/txEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="8dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#C1941B"
+            android:padding="8dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <EditText
+            android:id="@+id/txPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape2"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#C1941B"
+            android:padding="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/txForgotpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_pw"
+            android:textColor="#C1941B"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#F0DD89"
+            android:text="@string/btn_Login"
+            android:textColor="#C1941B"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            app:cornerRadius="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_uphere"
+            android:textColor="#C1941B"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

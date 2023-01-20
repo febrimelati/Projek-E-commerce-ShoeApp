@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PROJEK_ShoeAPP</string>
+    <string name="header_Login">Welcome back!</string>
+    <string name="btn_Login">LOG IN</string>
+    <string name="forgot_pw">Forgot Password?</string>
+    <string name="sign_uphere">Dont have an Account? <b>Sign Up Here</b></string>
+    <string name="hal_utama">Enjoy\nyour\nonline\nshopping</string>
+    <string name="header_Signup">Let’s Get Started!</string>
+    <string name="btn_Signup">CREATE</string>
+    <string name="login_here">Already have an Account? <b>Log in here</b></string>
+    <string name="Diskon_text">50% OFF,\nGO GET YOURS!</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="desk_header_Login">Log in to your existant account of shoes.on</string>
+    <string name="desk_header_register">Create an account to shoes.on to get all features</string>
+    <string name="detail_desc">Produk 100% bergaransi original, tidak ada stock selain yang ada pada tampilan, pembayaran bisa dilakukan secara COD, GRATIS ONGKIR untuk pembelian Rp. 200.000, produk dapat di refund jika ada kerusakan.</string>
+
+</resources>

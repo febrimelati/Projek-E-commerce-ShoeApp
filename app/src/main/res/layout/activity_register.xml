@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/header_Signup"
+            android:textColor="#C1941B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="@string/desk_header_register"
+            android:textColor="#C1941B"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/txEmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape2"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="8dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColorHint="#C1941B" />
+
+        <EditText
+            android:id="@+id/txPasswordReg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape2"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#C1941B" />
+
+
+        <EditText
+            android:id="@+id/txConfirmpw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/shape2"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="8dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#C1941B" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#F0DD89"
+            android:text="@string/btn_Signup"
+            android:textColor="#C1941B"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/tvLoginReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/login_here"
+            android:textColor="#C1941B" />
+    </LinearLayout>
+
+</LinearLayout>
